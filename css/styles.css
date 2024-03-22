@@ -542,6 +542,11 @@ header {
     color: var(--primary-white-color);
 }
 
+.footer-subscribe-button:hover,
+.footer-subscribe-button:focus {
+    background-color: var(--accent-green-color);
+}
+
 .footer-subscribe-icon {
     fill: var(--primary-white-color);
 }

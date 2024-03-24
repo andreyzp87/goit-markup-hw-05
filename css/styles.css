@@ -4,7 +4,7 @@
     --accent-green-color: #31D0AA;
     --primary-text-color: #434455;
     --overlay-text-color: #2E2F42;
-    --subtle-text-color: #8E8F99;
+    --secondary-text-color: #8E8F99;
     --primary-white-color: #FFFFFF;
     --light-background-color: #F4F4FD;
     --heavy-background-color: #E7E9FC;
@@ -460,7 +460,10 @@ header {
 .footer-container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+}
+
+.footer-brand-container {
+    margin-right: 120px;
 }
 
 .footer-social-container {
@@ -468,6 +471,7 @@ header {
     flex-direction: column;
     align-items: baseline;
     gap: 16px;
+    margin-right: 80px;
 }
 
 .footer-social-title {
@@ -725,7 +729,7 @@ header {
     align-items: center;
     width: 168px;
     height: 88px;
-    border: 1px solid var(--subtle-text-color);
+    border: 1px solid var(--secondary-text-color);
     border-radius: 4px;
     transition: var(--icon-transition);
     transition-property: border;
@@ -734,7 +738,7 @@ header {
 .customers-icon {
     width: 104px;
     height: 56px;
-    fill: var(--subtle-text-color);
+    fill: var(--secondary-text-color);
     transition: var(--icon-transition);
     transition-property: fill, border;
 }
